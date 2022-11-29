@@ -3,15 +3,15 @@
 #date: 05 November 2019
 
 library(shinydashboard)
-library(tidyverse)
-library(echarts4r)
-library(echarts4r.assets)
-library(echarts4r.maps)
-library(echarts4r.suite)
-library(reshape2)
+library(tidyverse) #data processing
+library(echarts4r) #visualisation
+library(echarts4r.assets) #visualisation
+library(echarts4r.maps) #visualisation
+library(echarts4r.suite) #visualisation
+library(reshape2) #processing
 library(zoo)
-library(geojsonsf)
-library(sf)
+library(geojsonsf) #geocoding
+library(sf) #geocoding
 library(leaflet)
 library(lubridate)
 library(varhandle)
